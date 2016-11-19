@@ -1,4 +1,4 @@
-package finalexamples;
+package finalvariables;
 
 public class FinalVariable {
 	
@@ -11,7 +11,7 @@ public class FinalVariable {
 	
 	public void m1(){
 		s = "s1";
-		//t = "t2";//Cannot reinitialize final variable
+		//t = "t2";//Cannot reinitialize final variable. It throws a complile time Error.
 		
 		
 		
