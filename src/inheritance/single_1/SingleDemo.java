@@ -1,9 +1,10 @@
-package inheritance.single;
+package inheritance.single_1;
 
 public class SingleDemo {
-
+	static SingleSuperClass o1;
 	public static void main(String[] args) {
-		SingleSuperClass o1 = new SingleSuperClass();
+		//SingleSuperClass o1; //new SingleSuperClass();
+		System.out.println(1/0);
 		o1.superM1();
 		//o1.superM2();//As superM2 is Private method in SingleSuperClass
 		

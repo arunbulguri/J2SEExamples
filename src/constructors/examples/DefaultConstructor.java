@@ -7,7 +7,7 @@ public class DefaultConstructor {
 	private String s;
 	
 	
-	public DefaultConstructor(){
+	public  DefaultConstructor(){
 		
 		a = 10;
 		s = "Arun";

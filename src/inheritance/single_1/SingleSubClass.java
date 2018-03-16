@@ -1,4 +1,4 @@
-package inheritance.single;
+package inheritance.single_1;
 
 public class SingleSubClass extends   SingleSuperClass{
 

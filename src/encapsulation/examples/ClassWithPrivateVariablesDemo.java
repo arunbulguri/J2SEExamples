@@ -5,7 +5,7 @@ public class ClassWithPrivateVariablesDemo {
 	public static void main(String[] args) {
 		ClassWithPrivateVariables o1 = new ClassWithPrivateVariables();
 		o1.setI1(3);
-		o1.setI1(5);
+		//o1.setI1(5);
 		System.out.println(o1.getI1());
 		
 System.out.println(o1.getS1());
