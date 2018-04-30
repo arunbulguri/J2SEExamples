@@ -4,8 +4,9 @@ public class CharCountWordCount {
 
 	public static void main(String[] args) {
 		CharCountWordCount o1 = new CharCountWordCount();
-		o1.isWordPresent("wOrd");
-		o1.calcWordCount("words");
+		//o1.isWordPresent("wOrd");
+		//o1.calcWordCount("words");
+		o1.calcCharCount('u');
 		
 		
 
@@ -60,6 +61,7 @@ public void calcCharCount(char x){
 		
 		String s = "arunkumar";
 		char a[] =s.toCharArray();
+		System.out.println(a.length);
 		
 		int count = 0;
 		//for (int i=0;i<a.length;i++){
