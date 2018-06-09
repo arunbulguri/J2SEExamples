@@ -15,7 +15,7 @@ public abstract class AbsClass {
 		
 	}
     
-    //public abstract void m3();
+    public abstract void m3();
     
     
    

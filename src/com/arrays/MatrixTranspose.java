@@ -6,10 +6,13 @@ public class MatrixTranspose {
 		MatrixTranspose o1 = new MatrixTranspose();
 		//o1.fixedSizeSquareMatrix();
 		o1.fixedSizeRectangleMatrix();
+		
+		
 
 	}
 
 	public void fixedSizeSquareMatrix() {
+	
        int a[][] = { { 1, 1, 1 }, { 2, 2, 2 }, { 3, 3, 3 } };
        int aTranspose[][] = new int [3][3];
        
@@ -36,6 +39,9 @@ public class MatrixTranspose {
 }
 
 	public void fixedSizeRectangleMatrix() {
+		
+		
+		
 		 int a[][] = { { 1, 1, 1 }, { 2, 2, 2 } };
 		 
 		 
