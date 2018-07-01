@@ -12,8 +12,8 @@ public class FibonocciSeries {
 	 */
 	public static void main(String args[]) {
 		FibonocciSeries o1 = new FibonocciSeries();
-		//o1.seriesUptoGivenNumber(13);
-		o1.seriesWithGivenNnumberOfElements(8);
+	o1.seriesUptoGivenNumber(4);
+		//o1.seriesWithGivenNnumberOfElements(8);
 
 	}
 

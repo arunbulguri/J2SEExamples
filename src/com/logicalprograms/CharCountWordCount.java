@@ -12,7 +12,7 @@ public class CharCountWordCount {
 
 	}
 
-	public void isWordPresent(String x) {
+	public void isWordPresent(String X) {
 
 		String s = "get number of word in a statement";
 
@@ -23,7 +23,7 @@ public class CharCountWordCount {
 		for (int i = 0; i < a.length; i++) {
 
 		//	if (a[i] == x) {
-			if (a[i].equalsIgnoreCase(x)){
+			if (a[i].equalsIgnoreCase(X)){
 				v1 = true;
 				break;
 			} else
